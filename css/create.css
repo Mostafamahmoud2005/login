@@ -1,0 +1,231 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+}
+/* small */
+@media (min-width: 786px) {
+    .container {
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1030px;
+    }
+}
+/* code */.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+}
+/* small */
+@media (min-width: 786px) {
+    .container {
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1030px;
+    }
+}
+/* code */
+.main_container {
+    background-color: #f0f2f5;
+    padding-bottom: 50px;
+}
+.main_container .image {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+}
+.main_container .contact{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 430px;
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+.main_container .image img {
+    width: 300px;
+}
+.main_container .contact .text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.main_container .contact .text1 {
+    font-size: 18px;
+    padding: 5px 0;
+    text-align: center;
+}
+.main_container .contact .input1,.input2 {
+    width: 170px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin: 10px 0;
+}
+.main_container .contact .input1 {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.main_container .contact .flable {
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.main_container .contact .input4,.input5,.input6 {
+    width: 123px;
+    margin-right: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+}
+.main_container .contact .input4 {
+    margin-left: 15px;
+}
+.main_container .contact .slable {
+    display: inline-block;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.main_container .contact .gender {
+    display: inline-block;
+    border: 1px solid #cecece;
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+.main_container .contact .gender input {
+    position: absolute;
+    top: 10px;
+    left: 80%;
+}
+.main_container .contact .fg {
+    margin-left: 15px;
+}
+.main_container .contact .input7,.input8 {
+    width: 380px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.main_container .contact .input7 {
+    margin-top: 10px;
+}
+.main_container .contact p {
+    padding-left: 15px;
+    padding-right: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+.main_container .contact .su {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: white;
+    background-color: #00a400;
+    padding: 8px 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main_container .contact .ahaa {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 21px;
+    line-height: 20px;
+    color: #0866ff;
+    text-decoration: none;
+}
+.main_container .contact .ahaa:hover {
+    text-decoration: underline;
+}
+.page-s{
+    background-color: #fff;
+    margin-top: -70px;
+    margin-left: 50px;
+    color: #385898;
+}
+.page-s .container .links {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.page-s .container .links a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #385898;
+    margin-right: 10px;
+}
+.page-s .container .links a:hover {
+    text-decoration: underline;
+}
+.page-s .container .links .ai {
+    padding: 1px 10px;
+    background-color: #f5f6f7;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: .3s;
+}
+.page-s .container .links .ai:hover {
+    background-color: #e5e7e7;;
+}
+.page-s .container hr {
+    background-color: #dddfe2;
+}
+.page-s .container .links2 {
+    padding-top: 10px;
+}
+.page-s .container .links2 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #385898;
+    margin-right: 16px;
+}
+.page-s .container .links2 a:hover{
+    text-decoration: underline;
+}
+.page-s .container .pub {
+    padding: 20px 0;
+    color: #385898;
+    font-size: 11px;
+}

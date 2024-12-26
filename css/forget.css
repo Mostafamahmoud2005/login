@@ -1,0 +1,172 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+}
+/* small */
+@media (min-width: 786px) {
+    .container {
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1030px;
+    }
+}
+/* code */
+.top {
+    background-color: #fff;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top .logo img {
+    padding-left: 18px;
+    padding-top: 3px;
+    height: 50px;
+}
+.top .inp {
+    padding-right: 40px;
+}
+.top .inp input {
+    height: 40px;
+    width: 170px;
+    border-radius: 7px;
+    border: 1px solid #cecece;
+    padding: 0 10px;
+}
+.top .inp input:focus {
+    outline: 1px solid #0866ff;
+}
+.top .inp input::placeholder {
+    font-size: 16px;
+    color: rgb(70, 69, 69);
+}
+.top .inp input[type=submit] {
+    width: 70px;
+    height: 40px;
+    background-color: #0866ff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}   
+.top .inp a {
+    display: inline-block;
+    text-decoration: none;
+    color: #0866ff;
+    padding-left: 10px;
+    margin-top: -10px;
+    font-size: 16px;
+}
+.middle {
+    background-color: #E9EbEE;
+    padding: 80px 0;
+}
+.middle .contact {
+    position: relative;
+    left: 49%;
+    transform: translateX(-50%);
+    width: 470px;
+    background-color: #fff;
+    padding: 5px 15px 15px 15px;
+    border-radius: 10px;
+}
+.middle .contact h2 {
+    padding: -10px 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+.middle .contact div{ 
+    padding: 15px 0;
+    font-size: 17px;
+}
+.middle .contact input {
+    width: 380px;
+    padding: 16px;
+    border-radius: 7px;
+    border: 1px solid #cecece;
+    margin-bottom: 10px;
+}
+.middle .contact a {
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 16px;
+} 
+.middle .contact .cl{
+    background-color: #E4E6EB;
+    color: black;
+    padding: 8px 17px;
+    margin-right: 5px;
+}
+.middle .contact .sh {
+    background-color: #0866ff;
+    color: white;
+    padding: 8px 20px;
+}
+.page-s{
+    background-color: #fff;
+    margin-top: 130px;
+    margin-left: 50px;
+    color: #737373;
+}
+.page-s .container .links {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.page-s .container .links a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #737373;
+    margin-right: 10px;
+}
+.page-s .container .links a:hover {
+    text-decoration: underline;
+}
+.page-s .container .links .ai {
+    padding: 1px 10px;
+    background-color: #f5f6f7;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: .3s;
+}
+.page-s .container .links .ai:hover {
+    background-color: #e5e7e7;;
+}
+.page-s .container hr {
+    background-color: #dddfe2;
+}
+.page-s .container .links2 {
+    padding-top: 10px;
+}
+.page-s .container .links2 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #737373;
+    margin-right: 16px;
+}
+.page-s .container .links2 a:hover{
+    text-decoration: underline;
+}
+.page-s .container .pub {
+    padding: 20px 0;
+    color: #737373;
+    font-size: 11px;
+}
